@@ -12,6 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
+        System.out.println("Este es el log.");
         return "Ya casi terminamos, Adriana, resiste.";
     }
 
